@@ -1,0 +1,22 @@
+from Crypto.Util import number
+
+def totient(p, q):
+    return (p-1)*(q-1)
+
+def decrypt(C, d, N):
+    return pow(C, d, N)
+
+
+p = 256745764655464715289043834762721676979
+q = 200871874067534114215487430360232242973
+e = 65537
+C = 46719725654448465098744632668971803465629737681703688833563214456037212929898
+#M = 3003659750128604864347574312182690206792640357124362417814398681837181
+N = p * q
+phi = totient(p, q)
+
+d = number.inverse(e, phi)
+
+m = decrypt(C, d, N)
+
+print(number.long_to_bytes(m))
