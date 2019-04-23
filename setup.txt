@@ -1,0 +1,9 @@
+--------準備--------
+・WSL(仮想マシンでも○)
+・wireshark
+・office PP(PowerPoint配布するので)
+
+
+--------あると良い--------
+・リバースエンジニアリングツール(IDA pro / Ghidra / radare2等々)
+・
