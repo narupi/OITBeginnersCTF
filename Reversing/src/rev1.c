@@ -20,7 +20,7 @@ int main(void){
 
     if ( strcmp( buffer, "adm!n!strat0r" ) == 0 ){
         printf("Authentication complete!\n");
-        printf("Flag is : oitctf{eazy_b1nary!}\n");
+        printf("Flag is : oitctf{easy_b1nary!}\n");
     }
     else {
         printf("Authentication failed\n");
