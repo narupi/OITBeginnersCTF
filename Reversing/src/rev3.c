@@ -7,6 +7,7 @@ int calc(void){
     for(i = 0; i < 8; i++){
         ans *= 2;
     }
+    printf("debug%d\n",ans);
     return ans;
 
 }
