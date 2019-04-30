@@ -1,0 +1,27 @@
+version: '3'
+services:
+  app:
+    container_name: php
+    build:
+      context: ./php
+      dockerfile: Dockerfile
+    tty: true
+    volumes:
+      - ${PWD}:/var/www/html
+    ports:
+      - "8002:80"
+    network_mode: "web2" 
+
+  db1:
+    container_name: mysql
+    build:
+      context: ./mysql
+      dockerfile: Dockerfile
+    environment:
+      - MYSQL_ROOT_PASSWORD=pass
+    volumes:
+      - ./mysql/mysql_conf:/etc/mysql/conf.d
+    network_mode: "web2"
+
+networks:
+  web2:
