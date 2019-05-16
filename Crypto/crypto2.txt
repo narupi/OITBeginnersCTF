@@ -6,7 +6,3 @@ cipher: qzrrmt{Xzetgstv_axivgi}
 
 md5: f4a30b455cfad62cd2a5fcd3b6fed152
 
-
-oitctf{Vigenere_cipher}
-
-crypto
