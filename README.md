@@ -1,6 +1,6 @@
 # CTF布教コンテストで作成した問題です
-CTF初心者に向けて作成した問題です
-Author: narupi
+CTF初心者に向けて作成した問題です  
+Author: narupi  
 
 ## Misc
 * Welcome問題
@@ -39,8 +39,8 @@ Author: narupi
 
 * Calculation(hint: debuggerは使えますか/実行中、計算結果は汎用レジスタに格納されます)
 
-   簡単な定数計算を実装したプログラムです
-   flag出力用のprint文を書き忘れてしまいました
+   簡単な定数計算を実装したプログラムです  
+   flag出力用のprint文を書き忘れてしまいました  
    計算によって求められる値をflagとしますので、実行ファイルを解析して計算結果を求めてください
    
    Flag形式: oitctf{"計算結果"}
